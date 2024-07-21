@@ -1,0 +1,1 @@
+# shika-forex-data-website
