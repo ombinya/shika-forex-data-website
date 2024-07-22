@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Helvetica Compressed";
+    src: url("../font/helvetica/helvetica-compressed-5871d14b6903a.otf")
+        format("opentype");
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../font/helvetica/Helvetica.ttf")
+        format("opentype");
+}
+
+@font-face {
+    font-family: "Futura Medium";
+    src: url("../font/futura/futura\ medium\ bt.ttf")
+        format("opentype");
+}
+
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 10vw;
+}
+
+.logo img {
+    max-width: 5vw;
+}
+
+main {
+    padding: 5vh 10vw;
+}
+
+.intro {
+    max-width: 700px;
+}
+.intro h1 {
+    font-family: "Futura Medium";
+    color: #5F4B8BFF;
+    font-size: 3.75rem;
+    /* letter-spacing: 0.1rem; */
+}
+
+.intro p {
+    font-family: "Helvetica";
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    margin: 2.5vh 0;
+    letter-spacing: 0.1vw;
+    line-height: 1.75rem;
+}
+
+.intro p a {
+    color: #E69A8DFF;
+    font-size: 1.1rem;
+    /* font-family: "Futura Medium"; */
+}
+
+.intro-cta {
+    margin: 5vh 0;
+}
+
+.intro-cta a {
+    margin-right: 2.5vw;
+    text-decoration: none;
+    border-radius: 0.25vw;
+    padding: 1vh 2vw;
+    color: #FFFF;
+}
+.download-app-btn {
+    font-family: "Futura Medium";
+    background-color: #5F4B8BFF;
+    border: 0.15rem solid #5F4B8BFF;
+}
+
+.download-app-btn:hover {
+    background-color: #5F4B8BFF;
+    border: 0.15rem solid rgb(255, 255, 255);
+}
+
+.download-app-btn:active {
+    background-color: #000000;
+    border: 0.15rem solid rgb(255, 255, 255);
+}
+
+.contact-btn {
+    font-family: "Futura Medium";
+    background-color: #E69A8DFF;
+    border: 0.15rem solid #E69A8DFF;
+    /* margin-left: 5vw; */
+}
+
+.contact-btn:hover {
+    background-color: #E69A8DFF;
+    border: 0.15rem solid rgb(255, 255, 255);
+}
+
+.contact-btn:active {
+    background-color: #000000;
+    border: 0.15rem solid rgb(255, 255, 255);
+}
